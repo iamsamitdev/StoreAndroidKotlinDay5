@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="report_fragment_text">Report Fragment</string>
+    <string name="service_fragment_text">Service Fragment</string>
+    <string name="setting_fragment_text">Setting Fragment</string>
+</resources>

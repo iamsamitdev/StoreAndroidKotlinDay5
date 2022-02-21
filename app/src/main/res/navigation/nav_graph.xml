@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.itgenius.storeandroidkotlin.fragments.HomeFragment"
+        android:label="หน้าหลัก"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.itgenius.storeandroidkotlin.fragments.ProductFragment"
+        android:label="สินค้า"
+        tools:layout="@layout/fragment_product" />
+
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.itgenius.storeandroidkotlin.fragments.ReportFragment"
+        android:label="รายงาน"
+        tools:layout="@layout/fragment_report" />
+
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.itgenius.storeandroidkotlin.fragments.NotificationFragment"
+        android:label="แจ้งเตือน"
+        tools:layout="@layout/fragment_notification" />
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.itgenius.storeandroidkotlin.fragments.AccountFragment"
+        android:label="บัญชี"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.itgenius.storeandroidkotlin.fragments.AboutFragment"
+        android:label="เกี่ยวกับเรา"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/serviceFragment"
+        android:name="com.itgenius.storeandroidkotlin.fragments.ServiceFragment"
+        android:label="บริการ"
+        tools:layout="@layout/fragment_service" />
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.itgenius.storeandroidkotlin.fragments.SettingFragment"
+        android:label="ตั้งค่า"
+        tools:layout="@layout/fragment_setting" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.itgenius.storeandroidkotlin.fragments.ProfileFragment"
+        android:label="โปรไฟล์"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

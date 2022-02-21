@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">StoreAndroidKotlin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment_text">หน้าหลัก</string>
+    <string name="go_to_profile_text">ดูโปรไฟล์</string>
+    <string name="product_fragment_text">สินค้า</string>
+    <string name="about_fragment_text">เกี่ยวกับเรา</string>
+    <string name="account_framgent_text">บัญชี</string>
+    <string name="notification_fragment_text">แจ้งเตือน</string>
+    <string name="profile_fragment_text">โปรไฟล์</string>
+    <string name="report_fragment_text">รายงาน</string>
+    <string name="service_fragment_text">บริการ</string>
+    <string name="setting_fragment_text">ตั้งค่า</string>
+    <string name="home_menu_title">หน้าหลัก</string>
+    <string name="product_menu_title">สินค้า</string>
+    <string name="report_menu_title">รายงาน</string>
+    <string name="notification_menu_text">แจ้งเตือน</string>
+    <string name="account_menu_title">บัญชี</string>
+    <string name="about_menu_text">เกี่ยวกับเรา</string>
+    <string name="service_menu_text">บริการ</string>
+    <string name="setting_menu_text">ตั้งค่า</string>
+    <string name="signout_menu_text">ออกจากระบบ</string>
+    <string name="my_avatar_text">ภาพโปรไฟล์</string>
+    <string name="samit_koyom_text">สามิตร โกยม</string>
+    <string name="samitkoyom_gmail_com_text">samitkoyom@gmail.com</string>
+</resources>
